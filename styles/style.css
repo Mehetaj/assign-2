@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Header style start */
+
+header{
+    width: 100%;
+    height: 143vh;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar style start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.g3-title{
+    font-size: 35px;
+    margin-left: 228px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.nav ul{
+    display: flex;
+    margin-right: 240px;
+    margin-top: 63px;
+}
+
+.nav li{
+    list-style: none;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav li:hover{
+    color: lightgreen;
+    margin-top: -5px;
+}
+
+/* navbar style End */
+
+.first-header{
+    margin-top: 120px;
+}
+
+.header-title{
+    font-size: 62px;
+    text-align: center;
+}
+
+.header-para{
+    color: darkgray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-btn{
+    text-align: center;
+}
+.explore-btn{
+    font-size: 28px;
+    margin-top: 32px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 7px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+
+.explore-btn:hover{
+    background-color: black;
+    color: red;
+    transform: rotate(360deg);
+    border-radius: 50px;
+}
+
+.header-bg{
+    margin: 50px 240px;
+}
+
+/* header style end */
+
+
+/* main style start */
+
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-head{
+    font-size: 45px;
+}
+
+.team-details{
+    margin-right: 00px;
+}
+
+.team-details{
+    color: gray;
+    margin-top: 10px;
+}
+.explore-btn2{
+    font-size: 28px;
+    margin-top: 32px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 7px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+
+.explore-btn2:hover{
+    background-color: hotpink;
+    color: black;
+    font-style: italic;
+    transform: skew(20deg);
+    border-radius: 40px;
+}
+
+/* main style end */
+
+/* second main style start */
+
+.second-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.second-header{
+    margin-top: 70px;
+}
+
+.grid{
+    margin-top: 20px;
+    background-color: #E7E7E7;
+    margin-right: 130px;
+    width: 550px;
+    height: 150px;
+}
+
+.grid-head{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.details{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.experience-btn{
+    margin-top: -80px;
+    margin-left: -100px;
+    
+}
+
+.exp-btn{
+    background-color: #FF900E;
+    font-size: 65px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    height: 150px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.exp-btn:hover{
+    background-color: lightpink;
+    color: black;
+    transform: skewx(10deg);
+}
+
+small{
+    font-size: 20px;
+    
+    display: block;
+}
+
+/* second-main style End */
+
+
+/* third-main style start */
+
+
+.third-main{
+    margin-top: 150px;
+}
+
+.third-details{
+    margin-left: 240px;
+}
+
+.third-head{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.third-para{
+    color: #757575;
+}
+
+.awards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    margin: 50px auto;
+}
+
+.award{
+    height: 150px;
+    width: 200px;
+    border: 1px solid orange;
+}
+
+.demical , .win, .fact{
+    margin-left: 20px;
+}
+
+.demical{
+    margin-left: 75px;
+}
+
+.win{
+    margin-left: 35px;
+}
+
+.fact{
+   padding-left: 50px;
+}
+
+
+/* main style end */
+
+
+
+/* Footer style start */
+
+.sponsor-item{
+    margin: 230px auto;
+    width: 70%;
+}
+
+.sponsor-title{
+    text-align: center;
+}
+
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    text-align: center;
+    margin-top: 55px;
+}
+
+.sponsor-pic{
+    color: #757575;
+    mix-blend-mode: luminosity;
+}
+
+.copyright{
+    height: 83px;
+    width: 1110px;
+    margin-left: 390px;
+    margin-top: -120px;
+    margin-bottom: 200px;
+    background-color: #FFF4E7;
+}
+
+.copyr8{
+    padding-top: 35px;
+    padding-left: 350px;
+}
+
+/* footer style end */
+
+/* Mobile View */
+
+@media screen and (max-width: ) {
+    
+}
