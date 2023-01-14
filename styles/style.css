@@ -305,6 +305,120 @@ small{
 
 /* Mobile View */
 
-@media screen and (max-width: ) {
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        width: 680px;
+    }
+    .nav ul {
+        margin-left: 120px;
+        margin-top: -10px;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .banner{
+        width: 700px;
+        margin-left: -265px;
+    }
+
+  .team-head{
+    text-align: center;
+    margin-left: 130px;
+    width: 100%;
+  }
+
+  .team{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  .teams{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-details{
+    margin-left: 140px;
+    width: 100%;
+  }
+
+  .explore-btn2{
+    margin-left: 165px;
+    width: 80%;
+  }
+
+  .second-main{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-btn{
+    margin-left: 120px;
+  }
+
+  .second-header{
+    width: 80%;
+    margin-left: 150px;
+  }
+
+  .left{
+
+    margin-left: 60px;
+  }
+
+  .awards{
+    flex-direction: column;
+    margin-left: 190px;
     
+  }
+
+  .award{
+    margin-bottom: 50px;
+    margin-left: 125px;
+  }
+
+  .third-details{
+    width: 100%;
+    margin-left: 220px;
+  }
+
+  .sponsors{
+    grid-template-columns: repeat(2 ,1fr);
+    
+  }
+
+  .sponsor-title{
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  .sponsor-item{
+    margin-left: 200px;
+  }
+
+  .sponsor-pic{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .copyright{
+    width: 500px;
+    padding: 0;
+    margin-left: 150px;
+
+  }
+
+  .copyr8{
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 35px;
+  }
 }
